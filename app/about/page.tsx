@@ -4,7 +4,9 @@ import { useRef } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { Mail, FileText, Send } from "lucide-react";
+import { FaDribbble } from "react-icons/fa";
 import { SiBlogger } from "react-icons/si";
+
 import {
   SiReact,
   SiNextdotjs,
@@ -22,7 +24,7 @@ import { fadeUp } from "../../lib/motion";
 const EXPERIENCE = [
   { company: "TECHNOLOGY INNOVATIVE CHALLENGE 9.0\nNational-Level Web Development Competition ", role: "Public Relations Division", period: "June 2026 - Present" },
   { company: "Tim PPK Ormawa BEM FKM", role: "Technology Division", period: "May 2026 - Present" },
-  { company: "UNIVERSITY STUDENT ENGLISH FORUM (USEF)", role: "Public Speaking Division", period: "January 2025 - December 2025" },
+  { company: "UKM UNIVERSITY STUDENT ENGLISH FORUM (USEF)", role: "Public Speaking Division", period: "January 2025 - December 2025" },
   { company: "SimoGura", role: "UI/UX Designer, Frontend Developer", period: "April 2026 - July 2026" },
 ];
 
@@ -37,12 +39,12 @@ const TECH_STACK = [
 ];
 
 export default function AboutPage() {
-  const mailRef = useRef<HTMLAnchorElement>(null);
+  const dribbleRef = useRef<HTMLAnchorElement>(null);
   const bloggerRef = useRef<HTMLAnchorElement>(null);
   const githubRef = useRef<HTMLAnchorElement>(null);
   const linkedinRef = useRef<HTMLAnchorElement>(null);
 
-  useMagnetic(mailRef);
+  useMagnetic(dribbleRef);
   useMagnetic(bloggerRef);
   useMagnetic(githubRef);
   useMagnetic(linkedinRef);
@@ -97,13 +99,15 @@ export default function AboutPage() {
 
           <motion.a
             variants={fadeUp}
-            ref={mailRef}
-            href="https://mail.google.com/mail/u/0/?fs=1&to=ilhamdwicahya338@gmail.com&tf=cm"
-            aria-label="Kirim email"
-            className="bg-[#DF3A3A] text-white rounded-3xl p-8 flex items-center justify-center hover:opacity-90 transition-opacity"
-          >
-            <Mail className="w-12 h-12" />
-          </motion.a>
+            ref={dribbleRef}
+            href="https://dribbble.com/ilham-dwi-cahya"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Kunjungi Dribbble"
+            className="bg-[#EA4C89] text-white rounded-3xl p-8 flex items-center justify-center hover:opacity-90 transition-opacity"
+            >
+            <FaDribbble className="w-12 h-12" />
+            </motion.a>
 
           <motion.a
             variants={fadeUp}
