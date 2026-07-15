@@ -63,7 +63,7 @@ export const PROJECTS: Project[] = [
     "Secara fungsional, aplikasi ini menyederhanakan proses administrasi dengan fitur-fitur seperti pengaturan jadwal, pengelolaan kuota peserta, dan informasi paket wisata yang terstruktur. Bagi pelanggan, TravelBest memberikan kemudahan dalam melakukan pemesanan secara digital dan transparan, sekaligus memungkinkan mereka untuk melihat riwayat transaksi. Melalui transformasi digital ini, diharapkan operasional bisnis wisata menjadi lebih profesional, pelayanan kepada wisatawan menjadi lebih cepat, dan data tersimpan dengan lebih aman."
     ],
     image: "/projects/travelbest.png",
-    tools: ["Figma", "PosgreSQL"],
+    tools: ["Figma"],
     viewDesignUrl: "https://dribbble.com/ilham-dwi-cahya" // Menggunakan format array
   },
   {

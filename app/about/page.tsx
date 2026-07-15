@@ -3,7 +3,7 @@
 import { useRef } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { Mail, FileText, Send } from "lucide-react";
+import { FileText, Send } from "lucide-react";
 import { FaDribbble } from "react-icons/fa";
 import { SiBlogger } from "react-icons/si";
 
@@ -154,7 +154,7 @@ export default function AboutPage() {
           <p className="text-lg md:text-xl leading-relaxed text-zinc-600 dark:text-zinc-400">
             <span className="text-[#0B0B0B] dark:text-white font-bold">
             </span>{" "}
-            Information Technology student at the University of Jember with a strong focus on mobile and web development. I love turning ideas into user-friendly applications by blending solid coding with intuitive UI/UX design. I m highly motivated to explore new technologies and continuously grow as a professional.
+            Information Technology student at the University of Jember with a strong focus on mobile and web development. I love turning ideas into user-friendly applications by blending solid coding with intuitive UI/UX design. I m highly motivated to explore new technologies and continuously grow as a professional developer.
           </p>
         </motion.div>
 
