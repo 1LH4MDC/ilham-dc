@@ -13,6 +13,18 @@ export interface Project {
 
 export const PROJECTS: Project[] = [
   {
+    slug: "fikcare",
+    title: "FIK CARE",
+    categories: ["website"],
+    description: "FIK-CARE sistem pengaduan berbasis web untuk mahasiswa Fakultas Ilmu Komputer Universitas Jember",
+    longDescription: [
+      "FIK-CARE merupakan sebuah aplikasi pengaduan berbasis web yang dirancang untuk memfasilitasi mahasiswa Fakultas Ilmu Komputer Universitas Jember dalam menyampaikan aspirasi, keluhan, ataupun laporan terkait layanan dan fasilitas kampus. Aplikasi ini memberikan kemudahan bagi mahasiswa untuk membuat laporan secara daring, memantau perkembangan status laporan mereka, serta mengakses informasi profil pribadi. Dengan tampilan antarmuka yang sederhana dan responsif, FIK-CARE bertujuan menciptakan pengalaman pelaporan yang lebih cepat, efisien, dan terkoordinasi."
+    ],
+    image: "/projects/fikcare.png",
+    tools: ["Laravel", "PHP"],
+    viewDesignUrl: "https://dribbble.com/shots/27607376-FIK-CARE-1",
+  },
+  {
     slug: "nogosari",
     title: "Website Nogosari",
     categories: ["website"],
