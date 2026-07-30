@@ -15,6 +15,12 @@ interface WorkItem {
 
 const WORKS: WorkItem[] = [
   {
+    title: "Website Nogosari",
+    description: "Website Desa Nogosari sistem monitoring dan peringantan dini real time berbasis IoT",
+    image: "/projects/nogosari.png",
+    href: "/projects/nogosari",
+  },
+  {
     title: "SiKandang",
     description: "Aplikasi Mobile Berbasis IOT Untuk Monitoring Kesehatan Dan Manajemen Peternakan Ayam",
     image: "/projects/sikandang.png",

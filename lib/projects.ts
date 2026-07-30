@@ -13,6 +13,18 @@ export interface Project {
 
 export const PROJECTS: Project[] = [
   {
+    slug: "nogosari",
+    title: "Website Nogosari",
+    categories: ["website"],
+    description: "Website Desa Nogosari sistem monitoring dan peringantan dini real time berbasis IoT",
+    longDescription: [
+      "SI-Tanggap merupakan sistem monitoring kondisi lingkungan desa secara real-time melalui sensor IoT untuk mendeteksi potensi bencana lebih awal. Sistem ini mencakup pemantauan ketinggian air sungai, kondisi cuaca, dan kualitas udara untuk memberikan peringatan dini yang akurat bagi seluruh warga desa."
+    ],
+    image: "/projects/nogosari.png",
+    tools: ["React", "Next.js", "Figma", "Node.js"],
+    viewDesignUrl: "https://dribbble.com/shots/27606826-Website-Desa-Nogosari",
+  },
+  {
     slug: "sikandang",
     title: "SiKandang",
     categories: ["mobile", "uiux"],
@@ -37,7 +49,7 @@ export const PROJECTS: Project[] = [
     ],
     image: "/projects/simogura.png",
     tools: ["Figma", "Flutter", "ESP32", "supabase", "MQTT"], 
-    viewDesignUrl: "https://dribbble.com/ilham-dwi-cahya", 
+    viewDesignUrl: "https://dribbble.com/shots/27543443-SimoGura-1", 
   },
   {
     slug: "aduinjember",
@@ -51,7 +63,7 @@ export const PROJECTS: Project[] = [
     ],
     image: "/projects/aduinjember.png",
     tools: ["Figma" , "Flutter", "supabase", "Maps API", "Camera API"], 
-    viewDesignUrl: "https://dribbble.com/ilham-dwi-cahya", 
+    viewDesignUrl: "https://dribbble.com/shots/27543576-Aduin-Jember-1", 
   },
   {
     slug: "travelbest",
@@ -64,7 +76,7 @@ export const PROJECTS: Project[] = [
     ],
     image: "/projects/travelbest.png",
     tools: ["Figma"],
-    viewDesignUrl: "https://dribbble.com/ilham-dwi-cahya" // Menggunakan format array
+    viewDesignUrl: "https://dribbble.com/shots/27543451-Travel-Best-1", // Menggunakan format array
   },
   {
     slug: "jaloka",
@@ -77,7 +89,7 @@ export const PROJECTS: Project[] = [
     ],
     image: "/projects/jaloka.png",
     tools: ["Figma", "C#", "Windows Forms", "MySQL"],
-    viewDesignUrl: "https://dribbble.com/ilham-dwi-cahya" // Menggunakan format array
+    viewDesignUrl: "https://dribbble.com/shots/27543453-Jaloka-JNANALOKA-1", // Menggunakan format array
   },
 
 ];

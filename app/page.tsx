@@ -39,8 +39,8 @@ export default function Page() {
                 animate={{ x: ["0%", "-50%"] }}
                 transition={{ ease: "linear", duration: 50, repeat: Infinity }}
               >
-                <span className="pr-8">Software Developer - UI/UX DESIGNER -&nbsp;</span>
-                <span className="pr-8">Software Developer - UI/UX DESIGNER -&nbsp;</span>
+                <span className="pr-8">Fullstack Developer - UI/UX DESIGNER -&nbsp;</span>
+                <span className="pr-8">Fullstack Developer - UI/UX DESIGNER -&nbsp;</span>
               </motion.div>
             </div>
             <div className="w-full overflow-hidden">
